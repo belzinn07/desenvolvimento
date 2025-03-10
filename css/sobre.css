@@ -365,4 +365,38 @@ body {
     
   }
 
-  
+  @media screen  and (max-width: 1024px){
+
+    .box1{
+      margin-left: -50px;
+    }
+   .box2{
+    height: 600px;
+    width: 900px;
+    margin-top: 500px;
+    margin-left: -1000px;
+    padding-left: 50px;
+
+   }
+
+   .box2 ul{
+    width: 800px;
+    padding-left: 50px;
+    border-radius: 20px;
+    height: 400px;
+
+   }
+
+   .img_nmmulheres{
+    margin-left: -20px;
+   }
+
+   .img_seta{
+    display: none;
+   }
+
+   .img_hexagono{
+    display: none;
+   }
+    
+  }
