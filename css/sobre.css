@@ -365,15 +365,23 @@ body {
     
   }
 
+  /*responsividade*/
   @media screen  and (max-width: 1024px){
 
     .box1{
+      margin-top: -150px;
       margin-left: -50px;
+    
+    }
+
+    .box1 h1{
+     
+    margin-left: 370px;
     }
    .box2{
     height: 600px;
     width: 900px;
-    margin-top: 500px;
+    margin-top: 300px;
     margin-left: -1000px;
     padding-left: 50px;
 
@@ -399,4 +407,19 @@ body {
     display: none;
    }
     
+  }
+
+  @media screen  and (max-width: 426px){
+    .geral{
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+
+    .box1{
+      width: 426px;
+
+    }
+
+
   }
