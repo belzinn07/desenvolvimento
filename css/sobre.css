@@ -112,12 +112,6 @@ body {
       .nav-bar{
           padding: 1.5rem 4rem;
       }
-      .nav-item{
-          display: none;
-      }
-      .login-button{
-          display: none;
-      }
       .mobile-menu-icon{
           display: block;
       }

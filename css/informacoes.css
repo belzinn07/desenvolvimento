@@ -610,6 +610,19 @@ button:hover {
 }
 
 @media screen and (max-width: 1024px) {
+  .geral{
+    justify-content: center;
+  }
+  .conteudo1 img{
+    height: 300px;
+    width: 500px;
+  }
+  .d1 p{
+    margin-top: -10px;
+    padding-top: 20px;
+    word-spacing: -2px;
+    width: auto;
+  }
   .cor_de_fundo{
     width: 900px;
     height: 600px; 
@@ -620,8 +633,19 @@ button:hover {
     height: 300px;
     width: 500px;
     margin-top: 80px;
+    margin-left: 50px;
     
     
+  }
+
+  .d2 h2{
+    margin-top: -20px;
+  }
+
+  .d2 p{
+    margin-top: -10px;
+    padding-top: 10px;
+    word-spacing: -4px
   }
 
   .box2{
@@ -633,5 +657,22 @@ button:hover {
     height: 100px;
   width: 200px;
   font-size: 20px;
+  }
+
+
+
+  .d3{
+   
+  margin-left: 100px;
+   
+  }
+
+  .conteudo4 img{
+    margin-left: 40px;
+  }
+  .d4{
+    margin-top: -10px;
+    padding-top: 10px;
+    word-spacing: -4px;
   }
 }
