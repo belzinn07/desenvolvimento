@@ -450,4 +450,12 @@ body {
         margin-left: -120px;
       }
 
+      .logo{
+        display: none;
+      }
+
+      .icon{
+        display: none;
+      }
+
   }
