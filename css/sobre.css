@@ -403,17 +403,30 @@ body {
     
   }
 
-  @media screen  and (max-width: 426px){
-    .geral{
-      justify-content: center;
-      flex-direction: column;
-      
-    }
+  @media screen  and (max-width: 430px){
+    
 
     .box1{
-      width: 426px;
+      width: 430px;
+      margin-top: -200px;
 
     }
 
+    .box1 h1{
+      margin-left: 65px;
+      font-size: 40px;
+      justify-content: center;
+    }
+
+      .box2 {
+        width: 400px;
+        height: 1000px;
+
+      }
+
+      .box2 ul{
+        height: 800px;
+        width: 300px;
+      }
 
   }
