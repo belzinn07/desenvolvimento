@@ -109,12 +109,7 @@ body {
       .nav-bar{
           padding: 1.5rem 4rem;
       }
-      .nav-item{
-          display: none;
-      }
-      .login-button{
-          display: none;
-      }
+      
       .mobile-menu-icon{
           display: block;
       }
@@ -367,4 +362,84 @@ body {
 
 
 
+/*responividade para celular*/
+    @media screen and (max-width: 430px) {
+      
+      .geral{
+        margin-top: auto;
+      }
 
+
+      .container1{
+        flex-direction: column;
+
+      }
+
+      .box1{
+        flex-wrap: wrap;
+        width: 430px;
+
+      }
+
+      .box1 h1{
+        height: 120px;
+        width: 300px;
+        margin-left: 65px;
+        font-size: 40px;
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-display: ;
+
+      }
+
+      .img_seta{
+        display: none;
+      }
+      
+      .box2{
+        width: 430px;
+        height: 500px;
+
+      }
+
+      .box2 h2{
+        font-size: 30px;
+        margin-top: 20px;
+      }
+
+      .content2{
+        width: 75%;
+        height: 300px;
+        
+
+      }
+
+      .content2 p{
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      .descricao2{
+        margin-top: -20px;
+      }
+
+      .nav-bar{
+        padding: 1.0rem 2rem;
+        margin-top: 50px;
+
+      }
+
+      .login-button{
+        margin-top: -50px;
+        margin-left: -120px;
+      }
+
+      .logo{
+        display: none;
+      }
+
+      .icon{
+        display: none;
+      }
+
+    }
