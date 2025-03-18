@@ -419,7 +419,7 @@ body {
       
       .geral{
         margin-top: auto;
-        width: 410px;
+        width: 430px;
       }
 
 
@@ -430,18 +430,25 @@ body {
 
       .box1{
         flex-wrap: wrap;
-        width: 410px;
+        
+        width: 100%;
+        min-width: 320px;  /* Garante que a div não fique menor que 320px */
+        max-width: 1200px; /* Garante que a div não fique maior que 1200px */
+        margin: 0 auto;    /* Centraliza a div horizontalmente */
 
       }
 
       .box1 h1{
         height: 120px;
         width: 300px;
-        margin-left: 45px;
+        
         font-size: 40px;
         color: white;
         font-family: "Bebas Neue", sans-serif;
-      
+        text-align: center;       /* Centraliza o texto */
+        margin: 0;                /* Remove margens */
+        padding: 0; 
+        margin-top: 100px;              /* Remove o preenchimento, se necessário */
 
       }
 
@@ -450,27 +457,42 @@ body {
       }
 
       .mulher_negra{
-        margin-left:65px;
+        text-align: center;       /* Centraliza o texto */
+        margin: 0;                /* Remove margens */
+        padding: 0; 
       }
 
       
      
       
       .box2{
-        width: 410px;
-        height: 500px;
+        height: 100%;
+        width: 100%;
+        min-width: 320px;  /* Garante que a div não fique menor que 320px */
+        max-width: 1200px; /* Garante que a div não fique maior que 1200px */
+        margin: 0 auto;    /* Centraliza a div horizontalmente */
+        margin-top: -50px;
+        padding-bottom: 50px ;
+
 
       }
 
       .box2 h2{
         font-size: 30px;
-        margin-top: 20px;
+        text-align: center;       /* Centraliza o texto */
+        margin: 0;                /* Remove margens */
+        padding: 0; 
+        margin-top: 50px;
       }
 
       .content2{
         width: 75%;
         height: 300px;
-        
+              /* Centraliza o texto */
+        margin: 0;                /* Remove margens */
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
 
       }
 
@@ -486,6 +508,7 @@ body {
       .nav-bar{
         padding: 1.0rem 0.1rem;
         margin-top: 50px;
+        
 
       }
 
@@ -503,7 +526,18 @@ body {
       }
 
       header{
-        width: 410px;
+        
+        width: 100%;
+        min-width: 320px;  /* Garante que a div não fique menor que 320px */
+        max-width: 1200px; /* Garante que a div não fique maior que 1200px */
+       
+      }
+
+      footer{
+        width: 100%;
+        min-width: 320px;  /* Garante que a div não fique menor que 320px */
+        max-width: 1200px; /* Garante que a div não fique maior que 1200px */
+       
       }
 
       
