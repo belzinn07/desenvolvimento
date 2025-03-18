@@ -357,6 +357,58 @@ body {
       /*background-color: ;se não quiser usar a imagem de fundo, é só apagar da body e coloar uma cor aqui*/
       
     }
+
+    /*responividade para tablet*/
+
+    @media screen and (max-width: 1024px){
+      .container1{
+        flex-direction: column;
+        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+
+      }
+
+      .box1{
+        display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+      }
+
+      .img_seta{
+        display: none;
+      }
+
+      .box2{
+        display: flex
+;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -40px;
+       
+      }
+
+      .box2 h2{
+        margin-top: -300px;
+      }
+
+      .content2{
+        margin-top: 20px;
+      }
+
+
+      .content2 p{
+        margin-top: 20px;
+      }
+
+
+
+
+    }
   
   
 
@@ -367,6 +419,7 @@ body {
       
       .geral{
         margin-top: auto;
+        width: 410px;
       }
 
 
@@ -377,27 +430,34 @@ body {
 
       .box1{
         flex-wrap: wrap;
-        width: 430px;
+        width: 410px;
 
       }
 
       .box1 h1{
         height: 120px;
         width: 300px;
-        margin-left: 65px;
+        margin-left: 45px;
         font-size: 40px;
         color: white;
         font-family: "Bebas Neue", sans-serif;
-        font-display: ;
+      
 
       }
 
       .img_seta{
         display: none;
       }
+
+      .mulher_negra{
+        margin-left:65px;
+      }
+
+      
+     
       
       .box2{
-        width: 430px;
+        width: 410px;
         height: 500px;
 
       }
@@ -424,14 +484,14 @@ body {
       }
 
       .nav-bar{
-        padding: 1.0rem 2rem;
+        padding: 1.0rem 0.1rem;
         margin-top: 50px;
 
       }
 
       .login-button{
         margin-top: -50px;
-        margin-left: -120px;
+        margin-left: -150px;
       }
 
       .logo{
@@ -441,5 +501,11 @@ body {
       .icon{
         display: none;
       }
+
+      header{
+        width: 410px;
+      }
+
+      
 
     }
