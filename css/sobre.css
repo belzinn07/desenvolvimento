@@ -428,16 +428,34 @@ body {
       }
 
       .box2 ul{
+        text-align: center;
+        margin: 0;
+        padding: 0;
         height: 600px;
         width: 300px;
         font-size: 20px;
         padding-top: 20px;
+        
+        /*text-align: justify;
+        margin: 0;
+        padding: 0;
+        height: 600px;
+        width: 300px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+        list-style: decimal-leading-zero;
+        color: #e1e1e1;*/
+        
         
       }
 
       .box2 ul li{
         margin-top: 20px;
       }
+
+      
 
       .nav-bar{
         padding: 1.0rem 2rem;

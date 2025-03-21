@@ -152,10 +152,8 @@ footer{
 
 @media screen and (max-width: 430px )  {
     footer{
+        align-items: center;
         width: 100%;
-        min-width: 320px;  /* Garante que a div não fique menor que 320px */
-        max-width: 1200px; /* Garante que a div não fique maior que 1200px */
-       
     }
     #footer_content{
         grid-template-columns: repeat(1, 1fr);
